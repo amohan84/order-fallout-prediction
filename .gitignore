@@ -1,0 +1,34 @@
+# --- Python Virtual Environment ---
+.venv/
+env/
+venv/
+
+# --- Python Cache Files ---
+__pycache__/
+*.pyc
+
+# --- Model Artifacts ---
+*.pkl
+
+# --- Synthetic / Generated Data ---
+*.csv
+
+# --- Plots / Images Generated During Training ---
+*.png
+
+# --- VS Code Project Settings ---
+.vscode/
+
+# --- OneDrive Temporary Files ---
+*.tmp
+*.lnk
+~$*
+
+# --- Logs / Reports ---
+*.log
+metrics_report.txt
+feature_importances.csv
+
+# --- OS / System Files ---
+.DS_Store
+Thumbs.db
